@@ -16,7 +16,7 @@ Note: I purposely coded such that ticket id is not accessible by GUI as in real 
 - Dockerfile
 
 ## How to Use the project
-Download the contents of the git as it is and use the following commands:
+Download the contents of the repo as it is and use the following commands:
 - docker build -t parking-lot .
 - xhost + localhost: docker  ##important for GUI Display, don't skip
 - docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix parking-lot
