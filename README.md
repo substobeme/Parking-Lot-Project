@@ -6,6 +6,7 @@ This is a simulation of a parking lot management, where my goal was to create a 
 I created a simple gui using Tkinter as well to utilize the portal.
 
 Note: I purposely coded such that ticket id is not accessible by GUI as in real life the customer will give back his actual ticket to pay fee and then only slot is free
+Also the number of slots, hourly rate, etc are hardcoded so can modify in code. Usually, number of parking slots in a place remain same so i didn't think it was necessary to allow updating slots via gui.
 
 ## Structure of Directory
 - py_files
