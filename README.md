@@ -3,6 +3,8 @@ This is a simulation of a parking lot management, where my goal was to create a 
 - keep a tab on vehicle and it's assigned slot(if available) and generate a ticket
 - calculate a fee using entry and exit time of vehicle using a predeterimed hourly rate to be paid by customer
 
+I created a simple gui using Tkinter as well to utilize the portal.
+
 ## Structure of Directory
 - pyfiles
   - model.py
@@ -10,5 +12,15 @@ This is a simulation of a parking lot management, where my goal was to create a 
   - gui.py
   - main.py
 - Dockerfile
+
+## How to Use the project
+Download the contents of the git as it is and use the following commands:
+- docker build -t parking-lot .
+- xhost + localhost: docker  ##important for GUI Display, don't skip
+- docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix parking-lot
+
+## Weekwise work
+- Week1: Coded the py_files content
+- Week2: Applied the containerizer process using Dockerfile
      
 
