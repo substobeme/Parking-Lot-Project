@@ -1,6 +1,6 @@
 # Parking Lot Management Project
 
-https://github.com/user-attachments/assets/871af69f-17cb-484e-a518-6bf7f44c070e
+https://github.com/user-attachments/assets/ad1b481b-407e-4acc-bb21-a7b941b051c7
 
 This is a simulation of a parking lot management, where my goal was to create a minimalistic portal to perform the basic functions a parking lot managemnt portal should do such as :
 - keep a tab on vehicle and it's assigned slot(if available) and generate a ticket
