@@ -8,7 +8,7 @@ I created a simple gui using Tkinter as well to utilize the portal.
 Note: I purposely coded such that ticket id is not accessible by GUI as in real life the customer will give back his actual ticket to pay fee and then only slot is free
 
 ## Structure of Directory
-- pyfiles
+- py_files
   - model.py
   - services.py
   - gui.py
