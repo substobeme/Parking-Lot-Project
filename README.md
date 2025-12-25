@@ -4,6 +4,7 @@ This is a simulation of a parking lot management, where my goal was to create a 
 - calculate a fee using entry and exit time of vehicle using a predeterimed hourly rate to be paid by customer
 
 I created a simple gui using Tkinter as well to utilize the portal.
+Note: I purposely coded such that ticket id is not accessible by GUI as in real life the customer will give back his actual ticket to pay fee and then only slot is free
 
 ## Structure of Directory
 - pyfiles
